@@ -2,7 +2,7 @@
 
 let clearing = document.getElementById("submit-button");
 
-function fuckingClear(){
+function clear(){
     document.getElementById("contact-page").innerHTML = "";
     const thankYou = document.createElement("p");
     thankYou.innerText = "Thank you for your message!";
@@ -10,7 +10,7 @@ function fuckingClear(){
     document.getElementById("contact-page").style.fontSize = "24px";
 }
 
-clearing.addEventListener("click", fuckingClear);
+clearing.addEventListener("click", clear);
 
 // hint: you can change the style of an element by modifying the value of that element's .style.fontSize, or by updating its .classList.
 
